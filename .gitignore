@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Generated artifacts
+*.stl
+*.png
+*.3mf
+*.gcode.3mf
+sliced/
+result.json
+
+# CAD Viewer generated preview files
+.*.glb
+.*.lock.json
+..*.glb
+..*.lock.json
+
+# Printer config (contains access code)
+bambu-printers.json
+
+# System
+.DS_Store
+Thumbs.db

@@ -1,0 +1,21 @@
+{
+  "backend": "orcaslicer",
+  "native_config": "/tmp/squashfs-root/resources/profiles/BBL/machine/Bambu Lab X2D 0.4 nozzle.json",
+  "native_settings": [
+    "/tmp/squashfs-root/resources/profiles/BBL/machine/Bambu Lab X2D 0.4 nozzle.json",
+    "/tmp/squashfs-root/resources/profiles/BBL/process/0.16mm Standard @BBL X2D.json"
+  ],
+  "native_filaments": [
+    "/tmp/squashfs-root/resources/profiles/BBL/filament/Bambu PLA Basic @BBL X2D 0.4 nozzle.json"
+  ],
+  "machine": {
+    "name": "Bambu Lab X2D 0.4 nozzle",
+    "bed_size_mm": [256, 256],
+    "z_height_mm": 261
+  },
+  "filament": {
+    "type": "PLA",
+    "nozzle_temp_c": 220,
+    "bed_temp_c": 55
+  }
+}
